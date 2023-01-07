@@ -10,7 +10,7 @@
 /* header section style starts here  */
 
 .header-area {
-  background-image: url(/images/banner3.png);
+  background-image: url("../images/banner3.png");
   max-width: 100vw;
   height: 100vh;
   background-size: contain;
@@ -114,7 +114,7 @@
 .contact-section {
   position: relative;
   margin-top: 150px;
-  background: url(/images/watch.png);
+  background: url("../images/watch.png");
   height: 300px;
   border-radius: 15px;
   background-color: rgba(78, 73, 219, 0.931);
