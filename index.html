@@ -7,14 +7,17 @@
     <title>New year thinks</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- header area starts here  -->
 
     <header class="header-area">
-        <h1 class="header-title">All Thinks Are <br> Possible If You <br> believe</h1>
-        <p class="header-details">Thinking outside the box involves challenging the status quo, taking risks, and being open to new ideas. It requires resilience and determination. By embracing creativity and innovation, we can open ourselves up to new possibilities and achieve our goals.</p>
-        <button type="submit">Contact Us</button>
+        <div class="header-info container">
+            <h1 class="header-title">All Thinks Are <br> Possible If You <br> believe</h1>
+            <p class="header-details">Thinking outside the box involves challenging the status quo, taking risks, and being open to new ideas. It requires resilience and determination. By embracing creativity and innovation, we can open ourselves up to new possibilities and achieve our goals.</p>
+            <button type="submit">Contact Us</button>
+        </div>
     </header>
 
     <!-- main area starts here  -->
@@ -23,7 +26,7 @@
 
     <!-- failure section starts here  -->
 
-        <section class="failure-section">
+        <section class="failure-section container">
             <div class="failure-img">
                 <img src="/images/person.png" alt="These is a failure person image.">
             </div>
@@ -65,7 +68,7 @@
 
     <!-- plan section starts here  -->
 
-        <section class="plan-section">
+        <section class="plan-section container">
             <h2 class="plan-title">My Plans</h2>
 
             <div class="about-plan">
@@ -95,16 +98,17 @@
 
     <!-- contact section starts here   -->
 
-        <section class="contact-section">
+        <section class="contact-section container">
             <h2 class="contact-title">Always keep a positive <br> mindset</h2>
-            <button type="submit">Call Now</button>
+            <button class="btn-call" type="submit">Call Now</button>
         </section>
     </main>
 
     <!-- footer section starts here  -->
 
     <footer class="footer-area">
-        <div class=contact-link-section">
+        <div class="container footer-area-container">
+            <div class=contact-link-section">
             <h3 class="contact-link-title">Contact Us</h3>
             <p>The website footer is a section at the bottom of each page that typically includes contact information and links to important information. It can be used to provide a way for visitors to contact the website owner.</p>
             <p>Email : example@gmail.com</p>
@@ -118,6 +122,7 @@
             <h3 class="subscribe-title">Subscribe</h3>
             <input type="email" name="" id="" placeholder="Enter your email">
             <input type="submit" value="Subscribe">
+        </div>
         </div>
     </footer>
   </body>
