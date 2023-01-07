@@ -117,6 +117,9 @@
   background: url(/images/watch.png);
   height: 300px;
   border-radius: 15px;
+  background-color: rgba(78, 73, 219, 0.931);
+  background-blend-mode: multiply;
+  /* background: linear-gradient(to left, #f4ffec, #5711e4); */
 }
 .contact-title {
   position: absolute;
